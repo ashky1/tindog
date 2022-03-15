@@ -1,0 +1,124 @@
+body{
+    position: absolute;
+}
+#title{
+    font-family:"Montserrat";
+    background-color: #ff4c68;
+    color: #fff;
+}
+h1 {  font-family: "Montserrat-bold";  font-size: 3.5rem;  line-height: 1.5;  font-weight: 900;}
+/* donwload color change */
+/* .dr{
+    color: #fff;
+}
+.dropdown-menu{
+    color: #fff;
+    background-color: #ff4c68; */
+/* }  */
+.container-fluid{
+    padding: 3% 15%;
+}
+h3{
+    font-family: "Montserrat-black";  
+}
+.image-rotate{
+    padding-top: 20px;
+    padding-left: 5rem;
+    width:  60%;
+    /* position: absolute; */
+    /* z-index: 1; */
+    
+    transform: rotate(20deg);
+}
+ .navbar-brand{
+    font-family: "Montserrat-light";
+    font-size: 2rem;
+    padding-bottom: ..8rem; 
+    font-weight: bold;
+} 
+.navbar{
+    padding-bottom: 3rem;
+    
+    
+    /* padding-bottom: 20px; */
+}
+.nav-link{
+    font-family:"Montserrat-light" ;
+}
+.downloadbuttun{
+    margin: 5% 5% 5% 0;
+} 
+ico{
+    color: #ff4c68;
+    margin-bottom: 1rem;
+}
+.ico:hover{
+    color: red;
+
+}
+#testimonials{
+    background-color: #ff4c68;
+    text-align: center;
+   
+    color: #fff;
+}
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 3%;
+}
+
+
+#features{
+    text-align: center;
+    margin: 15% 10%;
+    background: #fff;
+    position: relative;
+    z-index: 1;
+}
+h2{
+    font-family: "Monteserrat-Bold";
+    font-size: 3rem;
+    height: 1.5;
+}
+#press{
+    background-color: #ff4c68;
+    padding: 3%
+    
+}
+.press-img{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+#cta{
+    color: #fff;
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 200px 200px;
+}
+@media (max-width:992px) {
+    #title{
+        text-align: center;
+    }
+    .image-rotate{
+        position: static;
+        transform: rotate(20deg);
+    }
+
+    
+}
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+}
+.iconn{
+    color: #ff4c68;
+}
